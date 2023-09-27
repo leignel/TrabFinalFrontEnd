@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200&family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
 :root {
   --background-color: black;
   --primary-color: white;
@@ -15,6 +21,19 @@ header {
   color: white;
   text-decoration: none;
   padding: 10px 15px;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 15px;
+  transform: scale(1.5);
+  box-shadow: 0px 0px 10px rgb(120, 112, 112);
+}
+
+.nav-link {
+  border-radius: 15px;
 }
 
 .navbar-nav a:hover {
@@ -153,6 +172,18 @@ hr {
   background-color: white;
   /* box-shadow: 0px 0px 20px rgba(225, 218, 218, 0.67); */
   height: 3px;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+.col:first-child {
+  margin-right: 50px;
+}
+
+.col:last-child {
+  margin-left: 50px;
 }
 
 .card {
