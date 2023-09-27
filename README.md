@@ -10,7 +10,7 @@
 
   <p>Este repositório contém a contrução de um site de uma churrascaria fictícia da disciplina de Front End Essencial. O site foi desenvolvido com o objetivo de ser responsivo na versão desktop e mobile.</p>
 
-  <h2>O projeto do site do Buffalo Grill - CHurrascaria possui os seguintes itens:</h2>
+  <h2>O projeto do site do Buffalo Grill - Churrascaria possui os seguintes itens:</h2>
   <li>Tags do HTML5 Semânticas</li>
   <li>Página Principal (Home)</li>
   <li>Fale Conosco (Contato)</li>
