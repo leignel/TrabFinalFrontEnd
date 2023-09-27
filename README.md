@@ -35,6 +35,12 @@
 <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/0dd53e97-5a23-434b-bc64-88f94df4dd34" height="40" width="30"> JavaScript
 <br />
 <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/c7bf8c8b-60b6-4b01-bcbe-ef5116163d7c" height="40" width="40"> Bootstrap 5
+<br />
+<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/3bd878f7-23bf-4d6d-9e00-0cb31bed95be" height="40" width="40"> Canva
+<br />
+<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/6bb919dc-0dea-4370-ab9a-f591c535535b" height="40" width="40"> Trello
+
+
 
 
 <h2>Autores</h2>  
