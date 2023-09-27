@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200&family=Roboto:wght@300&display=swap");
 
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 :root {
   --background-color: black;
   --primary-color: white;
   --secondary-color: #d43d3d;
-  --tertiary-color: whitesmoke;
+  --tertiary-color: rgb(182, 182, 182);
 }
 
 header {
@@ -18,18 +19,27 @@ header {
 }
 
 .navbar-nav a {
-  color: white;
+  color: var(--tertiary-color);
+  font-size: x-large;
   text-decoration: none;
   padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.navbar-brand {
+  margin: 0px 40px 0px 40px;
 }
 
 .navbar-nav .nav-link.active {
+  height: 40px;
+  align-items: center;
+  display: flex;
   background-color: var(--secondary-color);
   color: var(--background-color);
-  transition: background-color 0.3s, color 0.3s;
+  transition: 0.3s;
   border-radius: 15px;
-  transform: scale(1.5);
   box-shadow: 0px 0px 10px rgb(120, 112, 112);
+  transform: scale(1.5);
 }
 
 .nav-link {
@@ -37,9 +47,12 @@ header {
 }
 
 .navbar-nav a:hover {
+  height: 40px;
+  align-items: center;
+  display: flex;
   background-color: var(--secondary-color);
   color: var(--background-color);
-  transition: background-color 0.3s, color 0.3s;
+  transition: 0.3s;
   border-radius: 15px;
   transform: scale(1.5);
   box-shadow: 0px 0px 10px rgb(120, 112, 112);
@@ -50,18 +63,21 @@ body {
 }
 
 .bth {
+  width: auto;
   background-color: var(--background-color);
   border: none;
 }
 
 .logo {
-  transition: 0.4s;
+  transition: 1s;
   width: 150px;
 }
 
 .logo:hover {
+  transition: 1s;
   margin-bottom: 10px;
-  transform: scale(1.3);
+  transform: scale(1.2);
+  /* transform: rotateY(360deg); */
 }
 
 .container {
@@ -75,14 +91,14 @@ body {
 }
 
 a {
-  margin: 0 100px;
+  margin: 0 70px;
 }
 
 .container-fluid {
   background-color: var(--background-color);
   transition: 0.5s;
   padding: 0;
-  box-shadow: 0px 5px 25px rgba(225, 218, 218, 0.67);
+  /* box-shadow: 0px 5px 25px rgba(225, 218, 218, 0.67); */
 }
 
 .navbar.navbar-expand-lg.bg-body-tertiary {
@@ -109,6 +125,8 @@ a {
 }
 
 .carousel-container {
+  margin-top: 10%;
+  margin-bottom: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,10 +139,20 @@ a {
 }
 
 .accordion-container {
+  margin-bottom: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 20vh;
+}
+
+.accordion.accordion.accordion-flush {
+  --bs-accordion-color: var(--bs-body-color);
+  --bs-accordion-bg: var(--bs-body-bg);
+  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-btn-focus-border-color: #d43d3d;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(212, 61, 61, 0.615);
+  --bs-accordion-active-color: #d43d3d;
 }
 
 .accordion.accordion-flush {
@@ -133,6 +161,7 @@ a {
 }
 
 .accordion-button.collapsed {
+  border-radius: 30px;
   color: rgba(245, 245, 245, 0.84);
   background-color: rgb(42, 41, 41);
   width: 1000px;
@@ -162,14 +191,20 @@ a {
   align-items: center;
 }
 
+.column {
+  margin: auto;
+}
+
 .colfooter a,
 p {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   text-decoration: none;
 }
 
 hr {
   background-color: white;
+  width: 91vw;
+  margin-left: 3%;
   /* box-shadow: 0px 0px 20px rgba(225, 218, 218, 0.67); */
   height: 3px;
 }
@@ -178,8 +213,9 @@ hr {
   margin-right: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .col:first-child {
@@ -206,7 +242,7 @@ hr {
 }
 
 .card a {
-  color: black;
+  color: #a3a5ae;
   font-weight: 700;
   text-decoration: none;
   margin: 0%;

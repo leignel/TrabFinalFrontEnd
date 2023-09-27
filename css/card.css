@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  box-shadow: 7px 7px 40px 0px rgb(0, 0, 0);
+  box-shadow: 4px 4px 5px rgb(43, 43, 43);
   padding: 30px;
   margin: 20px;
   width: 400px;
@@ -29,6 +29,8 @@ body {
 }
 .card:hover {
   transform: translateY(-5px);
+  transform: scale(1.03);
+  z-index: 1;
   cursor: pointer;
 }
 
