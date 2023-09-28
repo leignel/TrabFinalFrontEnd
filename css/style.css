@@ -184,6 +184,15 @@ a {
   width: 1000px;
 }
 
+.accordion-body p {
+  color: rgba(245, 245, 245, 0.84);
+}
+
+.accordion-body h2 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
 .accordion-collapse.collapsing {
   color: rgba(245, 245, 245, 0.84);
   background-color: rgb(42, 41, 41);
@@ -308,6 +317,10 @@ a {
 .card img {
   border-radius: 10px;
   border: 2px solid black;
+}
+
+.carousel-caption.d-none.d-md-block p {
+  color: #a3a5ae;
 }
 
 .card-text {
@@ -448,4 +461,8 @@ aside2 img {
 .dropdown-menu {
   --bs-dropdown-color: var(--background-color);
   --bs-dropdown-bg: var(--background-color);
+}
+
+.container-forms {
+  margin-top: 100px;
 }
