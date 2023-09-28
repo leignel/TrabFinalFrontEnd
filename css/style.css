@@ -504,3 +504,9 @@ aside2 img {
   transition: 0.4s;
   transform: scale(2);
 }
+
+.intro {
+  text-align: center;
+  padding-top: 70px;
+  font-size: xx-large;
+}
