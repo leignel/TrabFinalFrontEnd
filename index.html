@@ -20,7 +20,7 @@
       defer
     ></script>
   </head>
-  <body>
+  <body class="dark-mode">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -43,9 +43,30 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="produtos.html">Cardapio</a>
               <a class="nav-link" href="contato.html">Contato</a>
-              <a class="nav-link" href="produtos.html">Produtos</a>
               <a class="nav-link" href="integrantes.html">Equipe</a>
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mode
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" onclick="ligthMode()"
+                      >Ligth Mode</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="darkMode()">Dark Mode</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -80,42 +101,47 @@
             <div class="carousel-item active">
               <img
                 id="imgcarousel"
-                src="img/churrascarias-na-serra-gaucha.jpeg"
+                src="/img/bife-do-lombo-grelhado-cozido-malpassado-com-tempero-gerado-por-ia.jpg"
                 class="d-block w-100"
                 alt="bife ao ponto"
               />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Melhor churrascaria da Região Serrana</h5>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  Cada refeição na nossa churrascaria é uma celebração da
+                  excelência do churrasco
                 </p>
               </div>
             </div>
             <div class="carousel-item">
               <img
                 id="imgcarousel"
-                src="img/bife-suculento-carne-rara-medio-com-especiarias-e-legumes-grelhados_-_Copia.jpg"
+                src="/img/coqueteis-frescos-com-limao-gelado-e-ia-generativa-de-frutas.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="Diferentes drinks de várias cores e texturas"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h5>Drinks Clássicos de excelência</h5>
                 <p>
-                  Some representative placeholder content for the second slide.
+                  Descubra o sabor da excelência em cada gole e eleve a sua
+                  experiência em nossa churrascaria com nossos drinks de
+                  qualidade inigualável.
                 </p>
               </div>
             </div>
             <div class="carousel-item">
               <img
                 id="imgcarousel"
-                src="img/background_churrasco_-_Copia.jpg"
+                src="/img/sobremesa-de-tiramissu-com-hortela.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="Um tiramissu"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h5>Sobremesas Gourmet</h5>
                 <p>
-                  Some representative placeholder content for the third slide.
+                  Se você é um amante do açúcar, não deixe de experimentar as
+                  nossas sobremesas premiadas, que são o complemento perfeito
+                  para uma refeição incrível
                 </p>
               </div>
             </div>
@@ -140,6 +166,7 @@
           </button>
         </div>
       </div>
+
       <div class="accordion-container">
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
@@ -166,20 +193,19 @@
                     <div class="col">
                       <div class="card" style="width: 20rem">
                         <img
-                          src="img/localizacao.png"
+                          src="/img/shish-kebab-com-pimentoes-coloridos-servidos-com-ketchup-e-legumes-frescos.jpg"
                           class="card-img-top"
-                          alt="Localização da churrascaria"
+                          alt="Espetos de carne em uma tábua"
                         />
                         <div class="card-body">
                           <p class="card-text">
-                            Estamos situados em uma das áreas mais nobres desta
-                            cidade. Nossa churrascaria é o refúgio perfeito para
-                            quem aprecia o melhor da culinária em um ambiente
-                            elegante e acessível. <br />
+                            Selecionamos cuidadosamente os cortes mais nobres de
+                            carne, preparando-os com maestria para garantir que
+                            cada mordida seja uma explosão de sabor e
+                            suculência.<br />
                             <br />
-                            <a
-                              href="https://www.google.com.br/maps/place/Estr.+Uni%C3%A3o+e+Ind%C3%BAstria,+11000+-+Itaipava,+Petr%C3%B3polis+-+RJ,+25730-740/@-22.3961079,-43.1339226,17.23z/data=!4m6!3m5!1s0x99ab032a4cd9a1:0x34040adb859fc67d!8m2!3d-22.3961036!4d-43.1333413!16s%2Fg%2F11cnd6r7fb?entry=ttu"
-                              >Maps</a
+                            <a class="hovercard" href="/produtos.html"
+                              >Veja Mais</a
                             >
                           </p>
                         </div>
@@ -190,19 +216,18 @@
                         <img
                           src="img/drinks.jpg"
                           class="card-img-top"
-                          alt="Localização da churrascaria"
+                          alt="Vários drinks coloridos"
                         />
                         <div class="card-body">
                           <p class="card-text">
-                            Estamos situados em uma das áreas mais nobres desta
-                            cidade. Nossa churrascaria é o refúgio perfeito para
-                            quem aprecia o melhor da culinária em um ambiente
-                            elegante e acessível.
+                            Se você está procurando por um drink clássico, uma
+                            criação exclusiva ou uma bebida refrescante para
+                            acompanhar o seu churrasco, temos opções para todos
+                            os gostos.
                             <br />
                             <br />
-                            <a
-                              href="https://www.google.com.br/maps/place/Estr.+Uni%C3%A3o+e+Ind%C3%BAstria,+11000+-+Itaipava,+Petr%C3%B3polis+-+RJ,+25730-740/@-22.3961079,-43.1339226,17.23z/data=!4m6!3m5!1s0x99ab032a4cd9a1:0x34040adb859fc67d!8m2!3d-22.3961036!4d-43.1333413!16s%2Fg%2F11cnd6r7fb?entry=ttu"
-                              >Maps</a
+                            <a class="hovercard" href="/produtos.html"
+                              >Veja Mais</a
                             >
                           </p>
                         </div>
@@ -294,9 +319,15 @@
           </div>
         </div>
       </div>
+      <aside>
+        <img src="img/pexels_videos_3854_1080p.gif" alt="foguinho" />
+      </aside>
+      <aside2>
+        <img src="img/pexels_videos_3854_1080p.gif" alt="foguinho" />
+      </aside2>
     </main>
+    <hr />
     <footer>
-      <hr />
       <div>
         <iframe
           style="border-radius: 12px"

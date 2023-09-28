@@ -111,3 +111,43 @@ fetch(`https://api.github.com/users/${username5}`)
   .catch((error) => {
     console.error("Error:", error);
   });
+
+// dark mode button
+function darkMode() {
+  let element = document.body;
+  let content = document.getElementById("DarkModetext");
+  element.className = "dark-mode";
+  content.innerText = "Dark Mode is ON";
+}
+
+function ligthMode() {
+  let element = document.body;
+  let content = document.getElementById("DarkModetext");
+  element.className = "light-mode";
+  content.innerText = "Dark Mode is OFF";
+}
+
+function salvaDados() {
+  const nome = document.querySelector("#nome");
+  const email = document.querySelector("#email");
+  const mensagem = document.querySelector("#mensagem");
+
+  if (email.value === "" || nome.value === "" || mensagem.value === "") {
+    console.log("Preencha todos os campos");
+    return;
+  } else {
+    const user = {
+      nome: nome.value,
+      email: email.value,
+      mensagem: mensagem.value,
+    };
+    localStorage.setItem("user", JSON.stringify(user));
+    nome.value = "";
+    email.value = "";
+    mensagem.value = "";
+  }
+
+  console.log("Nome: ", nome.value);
+  console.log("Email: ", email.value);
+  console.log("Texto: ", mensagem.value);
+}
