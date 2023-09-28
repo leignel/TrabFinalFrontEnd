@@ -5,7 +5,7 @@
 <body>
   <h1 align="center">Buffalo Grill - Churrascaria</h1>
   <div align="center">
-    <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/d3d63a06-8ebd-43ad-91d5-31f8d629905a"alt="Buffalo Grill">
+    <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/5d5d178f-7c6a-4590-b1b2-7814fb3eb0e2"alt="Buffalo Grill">
   </div>
 
   <p>Este repositório contém a contrução de um site de uma churrascaria fictícia da disciplina de Front End Essencial. O site foi desenvolvido com o objetivo de ser responsivo na versão desktop e mobile.</p>
@@ -22,23 +22,23 @@
   <li>Página da equipe exibindo informação proveniente da API do GitHub</li>
 
   <h2>Ilustração da Utilização dos dados da API do GitHub</h2>
- <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/550e1fa4-166f-4ece-a475-dc50f698d177"/>
+ <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/f109ddbf-bc98-4b8f-ad92-bd3f544324b8"/>
 
 
   <h2>Tecnologias Utilizadas</h2>
- <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/5d24a8e4-9d9d-4165-87b5-b0f5e64ec34c" height="40" width="40"> Visual Studio Code 
+ <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/4134b30a-f118-4c8e-9eab-e77f5cce3967" height="40" width="40"> Visual Studio Code 
  <br />
- <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/0e727c99-71b6-435c-9d9c-1fecbec7318d" height="40" width="40"> HTML 5
+ <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/c84a000a-719c-4a57-905d-202406555d51" height="40" width="40"> HTML 5
 <br />
-<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/8509d4c5-f3c1-4416-881d-420f6532478f" height="40" width="40"> CSS 3
+<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/e3b9eda5-f72a-4fa6-adb2-49953bbe0f9c" height="40" width="40"> CSS 3
 <br />
-<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/0dd53e97-5a23-434b-bc64-88f94df4dd34" height="40" width="30"> JavaScript
+<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/288036e6-cbdb-4bc2-af09-565272756d47" height="40" width="30"> JavaScript
 <br />
-<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/c7bf8c8b-60b6-4b01-bcbe-ef5116163d7c" height="40" width="40"> Bootstrap 5
+<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/a70aee6e-934d-49bf-a2af-f630926dbe3b" height="40" width="40"> Bootstrap 5
 <br />
-<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/3bd878f7-23bf-4d6d-9e00-0cb31bed95be" height="40" width="40"> Canva
+<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/0d242d6d-d670-495d-a533-91cc49ba8c28" height="40" width="40"> Canva
 <br />
-<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/6bb919dc-0dea-4370-ab9a-f591c535535b" height="40" width="40"> Trello
+<img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/20f56606-7d66-4764-a508-792dd62b5c65" height="40" width="40"> Trello
 
 
 
