@@ -22,7 +22,7 @@
   <li>Página da equipe exibindo informação proveniente da API do GitHub</li>
 
   <h2>Ilustração da Utilização dos dados da API do GitHub</h2>
- <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/5cc7c58a-62cc-4b2d-87d7-2fefcda2b3d6"/>
+ <img src="https://github.com/leignel/TrabFinalFrontEnd/assets/141193350/550e1fa4-166f-4ece-a475-dc50f698d177"/>
 
 
   <h2>Tecnologias Utilizadas</h2>
